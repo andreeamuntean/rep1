@@ -1,0 +1,9 @@
+class NewClass{
+
+public int n;
+public NewClass(int n)
+{
+  this.n = n;
+}
+
+}
