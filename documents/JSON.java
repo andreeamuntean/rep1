@@ -18,6 +18,11 @@ public class JSON extends Document {
                 pos++;
             }
         }
+        
+     public String print()
+     {
+        System.out.println("modified");
+     }
 
         return Arrays.copyOf(res, pos);
     }
